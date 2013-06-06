@@ -1,0 +1,145 @@
+﻿
+.homepage section[role=main] {
+    margin-left: 120px;
+}
+.homepage header h1
+{
+    display:block;
+    background-image:url(/images/logoapp.png);
+    width:364px;
+    height:83px;
+}
+.homepage #tasksListView {
+   margin-left: -125px;
+    width:100%;
+}
+
+ .homepage .win-surface
+{
+    margin-left:120px;
+    margin-right:120px;
+    margin-bottom:90px;
+}
+
+.homepage .win-listview {
+   height:567px;
+}
+
+
+.homepage #tasksListView .win-container {
+    width:263px !important;
+}
+
+.homepage #tasksListView .win-item {
+    width:263px !important;
+    display:-ms-flexbox;
+    -ms-flex-align: center;
+    height:60px;
+    background-color:#ffd800;
+}
+
+.homepage #tasksListView .win-item .containerItemText{
+    padding:10px;
+    width:235px;
+}
+.homepage #tasksListView .win-item h6
+{
+    text-align:right;
+}
+
+.homepage #inputContainer {
+    position:relative;
+    left:-120px;
+    padding-left:120px;
+   padding-right:120px;
+}
+.homepage #inputContainer input
+{
+    width:100%;
+    height:50px;
+}
+#tasksListView .win-container .color1
+{
+    background-color:#ffd800;
+}
+#tasksListView .win-container .color2
+{
+    background-color:#b6ff00;
+}
+ #tasksListView .win-container .color3
+{
+    background-color:#0094ff;
+}
+#tasksListView .win-container .color4
+{
+    background-color:#b200ff;
+}
+#tasksListView .win-container .color5
+{
+    background-color:#f00;
+}
+@media screen and (-ms-view-state: snapped) {
+    .homepage section[role=main] {
+        margin-left: 30px;
+    }
+    .homepage header
+    {
+        padding-left: 10px;
+    }
+    .homepage header h1
+    {
+       
+        display:block;
+        background-image:url(/images/logoapp-snapped.png);
+        width:263px;
+        height:60px;
+    }
+    .homepage #tasksListView {
+        margin-left:-7px;
+        width:298px;
+    }
+    .homepage .win-listview {
+        height:75%;
+    }
+     .homepage .win-surface
+    {
+        margin-left:0px;
+        margin-right:0px;
+        margin-bottom:0px;
+    }
+    .homepage  #inputContainer  input
+    {
+        width:260px;
+        height:60px;
+        margin-left:0px;
+        margin-top:10px;
+        z-index:100;
+    }
+    .homepage #inputContainer {
+        left:0px;
+        padding-left:0px;
+        padding-right:0px;
+    }
+   #tasksListView .win-container .color1
+{
+    background-color:#ffd800;
+}
+#tasksListView .win-container .color2
+{
+    background-color:#b6ff00;
+}
+ #tasksListView .win-container .color3
+{
+    background-color:#0094ff;
+}
+#tasksListView .win-container .color4
+{
+    background-color:#b200ff;
+}
+#tasksListView .win-container .color5
+{
+    background-color:#f00;
+}
+}
+
+
